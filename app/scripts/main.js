@@ -2,6 +2,7 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 
+
 var ExerciseCategoryRow = React.createClass({
   render: function() {
     return (<tr><th colSpan="2">{this.props.category}</th></tr>);
